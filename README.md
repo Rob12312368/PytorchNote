@@ -2,7 +2,7 @@
 This document serves as my pytorch dictionary. You can use ctrl+f to find the syntax in an instant.
 # Fundamentals
 ## Create a tensor
-create a tensor `tensor = torch.tensor(n,m)`
+create a tensor `tensor = torch.tensor(n,m)`  
 create a tensor with random values `torch.rand(size=(n,m))`  
 create a tensor with ones `torch.ones(size=(n,m))`  
 create a tensor with zeros `torch.zeros(size=(n,m))`  

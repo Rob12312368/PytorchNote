@@ -19,14 +19,14 @@ find min, max, mean, sum `torch.max(x), torch.min(x), torch.mean(x.type(torch.fl
 find argmax, argmin `tensor.argmax(), tensor.argmin()`
 
 ## Change Shape
-reshape `torch.reshape(n,m)`
-create tmeporary view (note changing view will affect original tensor) `tensor.view()`
-stack torch horizontally or vertically `torch.stack([tensors, tensors, ...], dim)`
-Returns input with a dimension value of 1 added at dim `torch.unsqueeze()`
-Squeezes input to remove all the dimenions with value 1`torch.squeeze()`
+reshape `torch.reshape(n,m)`  
+create tmeporary view (note changing view will affect original tensor) `tensor.view()`  
+stack torch horizontally or vertically `torch.stack([tensors, tensors, ...], dim)`  
+Returns input with a dimension value of 1 added at dim `torch.unsqueeze()`  
+Squeezes input to remove all the dimenions with value 1`torch.squeeze()`  
 
 ## Pytorch and Numpy
-numpy to pytorch `torch.from_numpy()`
+numpy to pytorch `torch.from_numpy()`  
 pytorch to numpy `tensor.numpy()`
 
 
